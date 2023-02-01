@@ -21,7 +21,7 @@ jobs:
       - name: install deps
         run: |
           sudo apt update 
-          sudo apt install ninja-build libopenssl3-dev
+          sudo apt install ninja-build openssl
 
       - name: Run CMake
         run: |
